@@ -1,10 +1,10 @@
 from urllib import response
 import pandas as pd
 
-def num_change(number):
+def num_change(number, number2):
     if type(number) == float:
 
-        new_column = int(number)
+        new_column = int(number + number2)
 
     else:
         new_column = 10
